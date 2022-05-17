@@ -9,7 +9,7 @@ export default function PlayerSearcher() {
 
   function searchForPlayer(event) {
     var APICallString =
-      "https://la1.api.riotgames.com/lol/sumoner/v4/summoners/by-name/{sumonerName}" +
+      "" +
       searchText +
       "?api_key=" +
       API_KEY;
